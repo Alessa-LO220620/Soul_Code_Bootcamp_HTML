@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Vacinação</title>
+</head>
+
+<body>
+    <h2>Formulário de Vacinação</h2>
+    <table width="60%">
+        <tr>
+            <td>
+                <label for="nome">Nome:</label>
+                <input type="text" id="data">
+            </td>
+            <td>
+                <label for="dataaten">Data do Atendimento</label>
+                <input type="date" id="dataaten">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="data">Data de Nascimento:</label>
+                <input type="date" id="nome">
+            </td>
+            <td>
+                <label for="sangue">Tipo Sanguineo</label>
+                <select id="san">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="AB">AB</option>
+                    <option value="O">O</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="telefone">Telefone:</label>
+                <input type="number" id="telefone">
+            </td>
+            <td>
+                <label for="fator">Fator RH:</label>
+                <input type="radio" id="positivo">
+                <label for="positivo">Positivo</label>
+                <input type="radio" id="negativo">
+                <label for="positivo">Negativo</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">E-mail:</label>
+                <input type="text" id="email">
+            </td>
+            <td>
+                <label for="vacinas">Vacinas Aplicadas:</label>
+                <input type="text" id="vacinas">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="rua">Rua:</label>
+                <input type="text" id="rua">
+            </td>
+            <td>
+                <label for="comor">Comorbidade:</label>
+                <input type="text" id="comor">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="numero">Numero:</label>
+                <input type="text" id="numero">
+            </td>
+            <td>
+                <label for="contato">Contato de Emergência:</label>
+                <input type="number" id="contato">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="bairro">Bairro:</label>
+                <input type="text" id="bairro"></br></br>
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep"></br></br>
+                <label for="estado">Estado:</label>
+                <input type="text" id="estado"></br></br>
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="estado">
+            </td>
+            <td>
+                <label for="cor">Prioridade de Atendimento:</label></br>
+                <input type="radio" id="vermelho">
+                <input type="color" id="vermelho" name="cor" value="#ff0000">
+                <label for="vermelho">Emergência: atendimento imediato</label></br>
+                <input type="radio" id="laranja">
+                <input type="color" id="laranja" name="cor" value="#ffa500">
+                <label for="laranja">Muito urgente: espera de até 10 minutos</label></br>
+                <input type="radio" id="amarelo">
+                <input type="color" id="amarelo" name="cor" value="#ffff00">
+                <label for="amarelo">Urgente: espera de até 1 hora</label></br>
+                <input type="radio" id="verde">
+                <input type="color" id="verde" name="cor" value="#00ff00">
+                <label for="verde">Pouco urgente: espera de até 2 horas</label></br>
+                <input type="radio" id="azul">
+                <input type="color" id="azul" name="cor" value="#005aff">
+                <label for="azul">Não urgente: espera de até 4 horas</label></br></br>
+
+                <label for="velocidade">Velocidade de Atendimento:</label>
+                <input type="range" id="velocidade"></br></br>
+                <label for="obs">Observações:</label>
+                <textarea type="msg" id="obs"></textarea>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

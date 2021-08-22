@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form action="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" />
+        </br></br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" />
+
+        </br></br>
+
+        <label for="msg">Mensagem:</label>
+        <textarea id="msg"></textarea>
+        </br></br>
+
+        <input type="radio" id="python" name="fav_language" value="python">
+        <label for="python">PYTHON</label></br>
+        <input type="radio" id="html" name="fav_language" value="html">
+        <label for="html">HTML</label></br>
+        <input type="radio" id="css" name="fav_language" value="css">
+        <label for="css">CSS</label></br></br>
+
+        <input type="radio" id="mario" name="fav_games" value="mario">
+        <label for="mario">MARIO WORLD</label></br>
+        <input type="radio" id="zelda" name="fav_games" value="zelda">
+        <label for="zelda">ZELDA</label></br>
+        <input type="radio" id="metroid" name="fav_games" value="metroid">
+        <label for="zelda">METROID</label></br>
+        </br></br>
+        <button type="submit">Enviar Dados</button>
+        <button type="reset">Limpar Dados</button>
+        </br></br>
+
+        <form action="/teste"></form>
+        <fieldset>
+            <input type="checkbox" id="veiculo1" name="biclicleta">
+            <label for="veiculo1">Tenho uma Bicicleta</label></br>
+            <input type="checkbox" id="veiculo2" name="carro">
+            <label for="veiculo2">Tenho um carro</label></br>
+            <input type="checkbox" id="veiculo3" name="onibus">
+            <label for="veiculo3">Ando de ônibus</label></br>
+        </fieldset>
+
+        <form action="/teste"></form>
+        <label for="favcolor">Select your favorite color</label>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+        </br>
+
+    </form>
+</body>
+
+</html>
